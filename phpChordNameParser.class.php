@@ -158,7 +158,7 @@ class chord {
 				}
 			}
 			if(!$foundToken){
-				$errors[] = "Unable to parse chord";
+				$this->errors[] = "Unable to parse chord";
 				return false;
 			}
 		}
